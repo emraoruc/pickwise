@@ -8,6 +8,7 @@ permalink: /:title/
 timezone: Europe/Istanbul
 amazon_tag: getpickwise-21
 instagram: getpickwise
+goatcounter: pickwise
 markdown: kramdown
 plugins:
   - jekyll-seo-tag

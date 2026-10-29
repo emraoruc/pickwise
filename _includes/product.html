@@ -5,5 +5,5 @@
     {% if include.good %}<p class="pro">+ {{ include.good }}</p>{% endif %}
     {% if include.bad %}<p class="con">− {{ include.bad }}</p>{% endif %}
   </div>
-  <a class="btn" href="https://www.amazon.com.tr/dp/{{ include.asin }}?tag={{ site.amazon_tag }}" rel="sponsored nofollow noopener" target="_blank">Güncel fiyatı gör</a>
+  <a class="btn" data-goatcounter-click="amazon-{{ include.asin }}" data-goatcounter-title="{{ include.name | escape }}" href="https://www.amazon.com.tr/dp/{{ include.asin }}?tag={{ site.amazon_tag }}" rel="sponsored nofollow noopener" target="_blank">Güncel fiyatı gör</a>
 </div>
