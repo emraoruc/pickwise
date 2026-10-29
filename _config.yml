@@ -16,3 +16,4 @@ plugins:
 exclude:
   - README.md
   - AUTOMATION.md
+  - INSTAGRAM.md

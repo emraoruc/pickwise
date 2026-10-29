@@ -19,7 +19,7 @@ title: Çok satan ürünler için dürüst rehberler
 </div>
 <div class="grid">
   {% for p in site.data.products %}
-  <article class="item" data-cat="{{ p.category }}">
+  <article class="item" id="{{ p.asin | downcase }}" data-cat="{{ p.category }}">
     <div class="thumb" aria-hidden="true">{{ p.name | slice: 0 }}</div>
     <p class="eyebrow">{{ p.category }}{% if p.rank %} · {{ p.rank }}{% endif %}</p>
     <h3>{{ p.name }}</h3>

@@ -68,6 +68,7 @@ article.post{max-width:720px}
 .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));margin-top:16px}
 .item{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:6px;align-content:start}
+.item:target{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft);scroll-margin-top:16px}
 .item h3{font-family:var(--f-body);font-size:.98rem;font-weight:600;margin:0;line-height:1.35}
 .item .btn{text-align:center;margin-top:6px;font-size:.92rem}
 .item-meta{margin:0;font-size:.85rem;color:var(--muted)}
