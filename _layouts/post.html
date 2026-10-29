@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<article class="post">
+  <p class="eyebrow">{{ page.category }} · {{ page.date | date: "%d.%m.%Y" }}{% if page.last_modified_at %} · güncellendi {{ page.last_modified_at | date: "%d.%m.%Y" }}{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+  <p class="note">Bu yazı ortaklık bağlantıları içerir. Ürünleri yıldız puanı, yorum sayısı, satış sıralaması ve kullanıcı yorumlarındaki ortak noktalara göre değerlendiriyoruz.</p>
+  {{ content }}
+</article>

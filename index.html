@@ -1,0 +1,17 @@
+---
+layout: default
+title: Çok satan ürünler için dürüst rehberler
+---
+<section class="hero">
+  <h1>Doğru ürünü, ilk seferde.</h1>
+  <p>Amazon.com.tr'de binlerce yorum almış çok satan ürünleri karşılaştırıyor, kime uygun olup kime olmadığını açıkça yazıyoruz. Ev, mutfak, teknoloji ve evcil hayvan.</p>
+</section>
+<div class="cards">
+  {% for post in site.posts %}
+  <a class="card" href="{{ post.url | relative_url }}">
+    <span class="eyebrow">{{ post.category }}</span>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.summary }}</p>
+  </a>
+  {% endfor %}
+</div>

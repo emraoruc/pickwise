@@ -1,0 +1,25 @@
+# Ürün veritabanı: Amazon.com.tr çok satanlar, 29.10.2026. Fiyat tutulmaz.
+- {asin: B0DFWT82GM, name: "Stanley Quencher Pipetli Termos Bardak 1,18 L", category: Mutfak, rating: 4.1, reviews: 7070, rank: "Mutfak #2", commission: 4.5}
+- {asin: B0FP4XN8MN, name: "Stanley IceFlow Flip Straw Tumbler 0,89 L", category: Mutfak, rating: 4.4, reviews: 4460, rank: "Mutfak #1", commission: 4.5}
+- {asin: B00G59DYI0, name: "Philips Viva Meyve Sıkacağı HR1832/00", category: Mutfak, rating: 4.6, reviews: 5979, rank: "Mutfak #13", commission: 4.5}
+- {asin: B00PNKYZQC, name: "IKEA Paslanmaz Çelik Sarımsak Ezici", category: Mutfak, rating: 4.6, reviews: 8665, rank: "Mutfak #22", commission: 4.5}
+- {asin: B08W34BD8J, name: "Bluefox Dijital Mutfak Terazisi 5 kg", category: Mutfak, rating: 4.5, reviews: 3377, rank: "Mutfak #21", commission: 4.5}
+- {asin: B0CZ9SHW6W, name: "Philips 5000 Izgara ve Tost Makinesi HD6301/90", category: Mutfak, rating: 4.5, reviews: 1318, rank: "Mutfak #4", commission: 4.5}
+- {asin: B0FM88V1KR, name: "ARVALE Şarjlı Damacana Su Pompası", category: Mutfak, rating: 4.2, reviews: 234, rank: "Mutfak #19", commission: 4.5}
+- {asin: B0CZDZ1932, name: "papro Airfryer Pişirme Kağıdı 50'li", category: Mutfak, rating: 4.7, reviews: 491, rank: "Mutfak #14", commission: 4.5}
+- {asin: B01HTTQ6A2, name: "Vileda Turbo 2in1 Pedallı Temizlik Seti", category: Temizlik, rating: 4.2, reviews: 78275, rank: "Ev #8", commission: 3}
+- {asin: B0DWXM21GT, name: "Philips OneUp 5000 Kablosuz Elektrikli Mop", category: Temizlik, rating: 4.2, reviews: 1838, rank: "Ev #13", commission: 3}
+- {asin: B0CGM2G89Q, name: "Vicloon Sert Kıllı Derz Fırçası 2'li", category: Temizlik, rating: 4.5, reviews: 1015, rank: "Ev #19", commission: 3}
+- {asin: B0GCHPK4G2, name: "Coverest 38 L Katlanır Silikon Çamaşır Sepeti", category: Ev, rating: 4.3, reviews: 214, rank: "Ev #10", commission: 3}
+- {asin: B0CJQKG2TP, name: "Amber Hareket Sensörlü Şarjlı Gece Lambası 2'li", category: Ev, rating: 3.8, reviews: 722, rank: "Ev #11", commission: 3}
+- {asin: B0CKF7DHGG, name: "Banyor Yapışkanlı Banyo Rafı 2'li", category: Ev, rating: 4.4, reviews: 304, rank: "Ev #25", commission: 3}
+- {asin: B01DEWVZ2C, name: "JBL C100SI Kulak İçi Kulaklık", category: Teknoloji, rating: 4.4, reviews: 230466, rank: "Elektronik #20", commission: 3}
+- {asin: B0F9WFYMWF, name: "Spigen 67W GaN 3 Portlu Hızlı Şarj Aleti", category: Teknoloji, rating: 4.7, reviews: 267, rank: "Elektronik #10", commission: 4}
+- {asin: B0FCMTJSYJ, name: "URUCHI Hizalama Aparatlı iPhone Ekran Koruyucu", category: Teknoloji, rating: 4.0, reviews: 3885, rank: "Elektronik #1", commission: 4}
+- {asin: B01CG0TO76, name: "Duracell CR2032 Düğme Pil 4'lü", category: Teknoloji, rating: 4.8, reviews: 136600, rank: "Elektronik #7", commission: 4}
+- {asin: B0DZCPT6ZL, name: "Philips Lumea 9900 IPL Tüy Alma Cihazı", category: Kişisel Bakım, rating: 4.3, reviews: 104, rank: "Kişisel Bakım #8", commission: 1}
+- {asin: B0C2J8XTYY, name: "Philips OneBlade Yedek Bıçak 3'lü + Vücut Kiti", category: Kişisel Bakım, rating: 4.8, reviews: 3593, rank: "Kişisel Bakım #7", commission: 1}
+- {asin: B0078MF1PC, name: "L'Oreal Paris Telescopic Maskara Siyah", category: Kişisel Bakım, rank: "Kişisel Bakım #9", commission: 3}
+- {asin: B0DNTN8H2W, name: "Wanpy Krema Kedi Ödülü 50x14 g", category: Evcil Hayvan, rating: 4.9, reviews: 519, rank: "Evcil Hayvan #9", commission: 3}
+- {asin: B001MZYPTE, name: "GimCat Malt Soft Extra 100 g", category: Evcil Hayvan, rating: 4.7, reviews: 5999, rank: "Evcil Hayvan #7", commission: 3}
+- {asin: B000OLFXRU, name: "Royal Canin Kitten Yavru Kedi Maması 2 kg", category: Evcil Hayvan, rating: 4.6, reviews: 13924, rank: "Evcil Hayvan #6", commission: 3}

@@ -1,0 +1,9 @@
+<div class="product">
+  <div class="product-body">
+    <p class="product-name">{{ include.name }}</p>
+    {% if include.meta %}<p class="product-meta">{{ include.meta }}</p>{% endif %}
+    {% if include.good %}<p class="pro">+ {{ include.good }}</p>{% endif %}
+    {% if include.bad %}<p class="con">− {{ include.bad }}</p>{% endif %}
+  </div>
+  <a class="btn" href="https://www.amazon.com.tr/dp/{{ include.asin }}?tag={{ site.amazon_tag }}" rel="sponsored nofollow noopener" target="_blank">Güncel fiyatı gör</a>
+</div>

@@ -1,0 +1,17 @@
+title: Pickwise
+tagline: Çok satan ürünler için dürüst rehberler
+description: Amazon.com.tr'nin çok satan ev, mutfak, teknoloji ve evcil hayvan ürünleri için karşılaştırmalar, satın alma rehberleri ve pratik ipuçları.
+lang: tr
+url: https://emraoruc.github.io
+baseurl: /pickwise
+permalink: /:title/
+timezone: Europe/Istanbul
+amazon_tag: getpickwise-21
+instagram: getpickwise
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - AUTOMATION.md
