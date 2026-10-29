@@ -2,16 +2,47 @@
 layout: default
 title: Çok satan ürünler için dürüst rehberler
 ---
-<section class="hero">
-  <h1>Doğru ürünü, ilk seferde.</h1>
-  <p>Amazon.com.tr'de binlerce yorum almış çok satan ürünleri karşılaştırıyor, kime uygun olup kime olmadığını açıkça yazıyoruz. Ev, mutfak, teknoloji ve evcil hayvan.</p>
+<section class="store">
+  <span class="store-avatar" aria-hidden="true">P</span>
+  <div>
+    <h1>{{ site.title }}</h1>
+    <p>Amazon.com.tr'de binlerce yorum almış çok satanlar. Ev, mutfak, teknoloji ve evcil hayvan. Kime uygun olup kime olmadığını açıkça yazıyoruz.</p>
+    <p class="store-meta"><span class="dot"></span>{{ site.data.products | size }} ürün · {{ site.posts | size }} rehber · Satış ve teslimat Amazon.com.tr</p>
+  </div>
 </section>
+
+<h2 id="urunler">Ürünler</h2>
+{% assign cats = site.data.products | map: "category" | uniq %}
+<div class="chips" role="group" aria-label="Kategori">
+  <button class="chip" data-cat="" aria-pressed="true">Tümü</button>
+  {% for c in cats %}<button class="chip" data-cat="{{ c }}" aria-pressed="false">{{ c }}</button>{% endfor %}
+</div>
+<div class="grid">
+  {% for p in site.data.products %}
+  <article class="item" data-cat="{{ p.category }}">
+    <div class="thumb" aria-hidden="true">{{ p.name | slice: 0 }}</div>
+    <p class="eyebrow">{{ p.category }}{% if p.rank %} · {{ p.rank }}{% endif %}</p>
+    <h3>{{ p.name }}</h3>
+    {% if p.rating %}<p class="item-meta">{{ p.rating | replace: ".", "," }} ★ · {{ p.reviews }} yorum</p>{% endif %}
+    <a class="btn" data-goatcounter-click="amazon-{{ p.asin }}" data-goatcounter-title="{{ p.name | escape }}" href="https://www.amazon.com.tr/dp/{{ p.asin }}?tag={{ site.amazon_tag }}" rel="sponsored nofollow noopener" target="_blank">Amazon'da gör</a>
+  </article>
+  {% endfor %}
+</div>
+
+<h2 id="rehberler">Rehberler</h2>
 <div class="cards">
   {% for post in site.posts %}
   <a class="card" href="{{ post.url | relative_url }}">
     <span class="eyebrow">{{ post.category }}</span>
-    <h2>{{ post.title }}</h2>
+    <h3>{{ post.title }}</h3>
     <p>{{ post.summary }}</p>
   </a>
   {% endfor %}
 </div>
+
+<script>
+document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === b));
+  document.querySelectorAll(".item").forEach(i => i.hidden = b.dataset.cat && i.dataset.cat !== b.dataset.cat);
+}));
+</script>
