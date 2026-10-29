@@ -13,24 +13,17 @@ kuralları özel mesaj ve e-postada ortaklık linki paylaşımını kısıtlıyo
    `https://emraoruc.github.io/pickwise/` (başlık: Ürünler ve rehberler)
 2. Biyografi (149 karakter):
    `Amazon'un çok satanlarını tek tek inceliyorum 🔍 ev • mutfak • teknoloji • pet. Yorumlara ürün adını yaz, link DM'de 👇 (ortaklık linki içerir)`
-3. Profesyonel hesap zaten açık. Ayarlar → Hesap merkezi'nden bir Facebook
-   Sayfasına bağla (Meta Business Suite zamanlaması ve ManyChat için gerekli).
+3. ✅ Instagram, "Pickwise" Facebook Sayfasına bağlı; biyografi güncel.
 
-## 2. ManyChat kurulumu (ücretsiz plan)
+## 2. Yorum → DM otomasyonu (Meta Business Suite, KURULU)
 
-1. manychat.com → "Get started" → Instagram ile bağlan (@getpickwise).
-2. Automation → "Comment → DM" şablonu, her video için bir otomasyon:
-   - Tetikleyici: "Specific post or reel" + "Keyword" (aşağıdaki tablo)
-   - Yoruma herkese açık cevap: `DM'den gönderdim 📩`
-   - DM metni:
-     ```
-     Selam! İstediğin ürün burada 👇
-     {link}
-     Fiyat Amazon'da sık değişiyor, almadan önce güncel fiyata bak.
-     (Ortaklık linkidir, sana ek ücret yok.)
-     ```
-3. Ek olarak "Default reply" yerine Keyword otomasyonu: DM'e `LİSTE` yazana
-   site ana sayfasını gönder.
+29 Ekim 2026'da Business Suite → Gelen Kutusu → Otomasyonlar altında 24 adet
+"Yorumdan mesaja" otomasyonu kuruldu (Instagram + Messenger, tüm gönderiler).
+ManyChat gerekmiyor. Yeni ürün eklerken aynı şablonu kopyala:
+
+- Anahtar kelime: tablodaki kelime (Türkçe karakterli ve karaktersiz iki yazım)
+- Özel mesaj: `Selam! İstediğin ürün burada 👇 {link} Fiyat Amazon'da sık değişiyor, almadan önce güncel fiyata bak. (Ortaklık linkidir, sana ek ücret yok.)`
+- Yorum yanıtı: `DM'den gönderdim 📩`
 
 | Anahtar kelime | Ürün | DM linki |
 |---|---|---|
@@ -59,14 +52,13 @@ kuralları özel mesaj ve e-postada ortaklık linki paylaşımını kısıtlıyo
 | MALT | GimCat Malt | https://emraoruc.github.io/pickwise/#b001mzypte |
 | KEDI | Yavru kedi listesi (rehber) | https://emraoruc.github.io/pickwise/yavru-kedi-ilk-alisveris-listesi/ |
 
-ManyChat Türkçe karakteri ayrı kelime sayabilir; her otomasyona hem `SARJ` hem
-`ŞARJ`, hem `ODUL` hem `ÖDÜL` gibi iki yazımı ekle.
+KEDI otomasyonu `kedi` ve `mama` kelimelerine yanıt verir.
 
 ## 3. İlk 7 paylaşım (30 Ekim – 5 Kasım 2026)
 
 Meta Business Suite → Planlayıcı ile Reels'i önceden yükle ve saati seç.
 Aynı videoyu TikTok ve YouTube Shorts'a da yükle (açıklamadaki "yorum yaz"
-yerine "link profilde" yaz, ManyChat yalnızca Instagram'da çalışır).
+yerine "link profilde" yaz, otomasyon Instagram ve Facebook'ta çalışır).
 Senaryolar Komuta Paneli → İçerik panosunda.
 
 ### 1 · Per 30 Eki 19:00 · KULAKLIK
